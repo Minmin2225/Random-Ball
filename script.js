@@ -110,14 +110,14 @@ class Game {
    * @return {string} grade
    */
   showGrade(score) {
-    if (score > 30) return "Chuck Norris?";else
-    if (score > 25) return "You're da man";else
-    if (score > 20) return "Awesome";else
-    if (score > 15) return "Great!";else
-    if (score > 13) return "Nice!";else
-    if (score > 10) return "Good Job!";else
-    if (score > 5) return "Really?";else
-    return "Poor...";
+    if (score > 30) return "Fast hands";else
+    if (score > 25) return "Mahal na ata kita";else
+    if (score > 20) return "Kuya Pa kiss";else
+    if (score > 15) return "Sheeshh";else
+    if (score > 13) return "Galing";else
+    if (score > 10) return "Pwede na";else
+    if (score > 5) return "Hilo kaba?";else
+    return "B*bo";
   }
 
   start() {
