@@ -116,7 +116,7 @@ class Game {
     if (score > 15) return "Sheeshh";else
     if (score > 13) return "Galing";else
     if (score > 10) return "Pwede na";else
-    if (score > 5) return "Hilo kaba?";else
+    if (score > 5) return "Hilo ka ba?";else
     return "B*bo";
   }
 
