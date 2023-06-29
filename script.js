@@ -65,7 +65,7 @@ class Game {
     $('.start-game').css('display', 'flex');
 
     let introTl = new TimelineMax();
-    let ball = new TimelineMax({ repeat: -1, delay: 3 });
+    let ball = new TimelineMax({ repeat: -1, delay: 1 });
     introTl.
     fromTo('.start-game .logo-holder', 0.9, { opacity: 0 }, { opacity: 1 }).
     staggerFromTo('.start-game .logo span', 0.5, { opacity: 0 }, { opacity: 1 }, 0.08).
